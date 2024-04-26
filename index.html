@@ -38,14 +38,17 @@
         </nav>
         <section id="profile">
             <div class="section_pic-container">
-                <img src="./assets/profile-pic.png" alt="Raymond Dong profile pic"/>
+                <img 
+                class="profile-pic" 
+                src="./assets/Raymond_Dong_Headshot.JPG" 
+                alt="Raymond Dong profile pic"/>
             </div>
             <div class="section_text">
                 <p class="section_text_p1">Hello I'm</p>
                 <h1 class="title">Raymond Dong</h1>
                 <div class="btn-container">
                     <button class="btn btn-color-1" 
-                    onclick="window.open('./assets/resume-example.pdf')"
+                    onclick="window.open('./assets/Raymond_Dong_Resume.pdf')"
                     >Download Resume</button>
                     <button class="btn btn-color-2" 
                     onclick="location.href='./#contact'"
@@ -85,10 +88,11 @@
                     </div>
                     <div class="text-container">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Nobis optio possimus voluptate ratione dicta doloremque, 
-                            nostrum quibusdam debitis recusandae rerum aspernatur eligendi, 
-                            earum cupiditate minima nulla assumenda autem unde repellat?
+                            Currently, an undergraduate student at NYU Tandon School
+                             of Engineering pursuing a BS in Computer Science. 
+                             Have experience with Python, C++, Flutter (Dart), 
+                             and Microsoft Office. Looking for insightful experiences 
+                             through internship, research, and volunteer opportunities.
                         </p>
                     </div>
                 </div>
@@ -104,8 +108,21 @@
                     <div class="details-container">
                         <h2 class="experience-sub-title">Discubble</h2>
                         <div class="article-container">
+                            <img src="./assets/discubble_icon_circle_white.png" 
+                            alt="Discubble Icon" class="icon2 discubble"/>
                             <article>
-                                img
+                                <ul>
+                                    <li>Collaborated with team members to design and create
+                                        a social media app to bridge the gap between youth and
+                                        politics</li>
+                                    <li>Utilized Flutter and Firebase to incorporate several 
+                                        back-end features like querying for saved posts, redirecting
+                                        between pages, and retrieving user data for a seamless user 
+                                        experience</li>
+                                    <li>Defined functions to query appropriate data and implemented 
+                                        a For-You page algorithm to provide users with
+                                        personalized content recommendations</li>
+                                </ul>
                             </article>
                         </div>
                     </div>
@@ -127,6 +144,46 @@
             <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
             onclick="location.href='./#experience'"/>
         </section>
+        <section id="contact">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" 
+                    alt="Email Icon" 
+                    class="icon mail-icon"
+                    />
+                    <p>
+                        <a href="mailto:rd3234@nyu.edu">rd3234@nyu.edu</a>
+                    </p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" 
+                    alt="LinkedIn Icon" 
+                    class="icon linkedIn-icon"
+                    />
+                    <p>
+                        <a href="https://www.linkedin.com/in/raymonddong0408/">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#experience">Experience</a></li>
+                        <li> <a href="#projects">Projects</a></li>
+                        <li> <a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>
+                Copyright &#169; 2024 Raymond Dong.
+                All Rights Reserved.
+            </p>
+        </footer>
         <script src="script.js"></script>
     </body>
 </html>
